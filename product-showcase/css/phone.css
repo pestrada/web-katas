@@ -1,0 +1,25 @@
+@media screen and (max-width: 380px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .item {
+        align-items: center;
+        display: flex;
+        border-color: #000;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .item-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .product-image {
+        float: left;
+    }
+}

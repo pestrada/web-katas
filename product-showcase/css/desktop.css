@@ -1,0 +1,24 @@
+@media screen and (min-width: 450px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+}
+
+body {
+    font-family: Arial;
+}
+
+.product-image {
+    height: 149px;
+    width: 155px;
+}
+
+.item {
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
