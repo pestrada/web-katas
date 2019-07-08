@@ -22,4 +22,12 @@
     .product-image {
         float: left;
     }
+
+    #desktop-title {
+        display: none;
+    }
+    
+    #mobile-title {
+        display: inline-block;
+    }
 }

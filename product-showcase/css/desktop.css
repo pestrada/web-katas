@@ -22,3 +22,11 @@ body {
     border-width: 1px;
     text-align: center;
 }
+
+#desktop-title {
+    display: inline-block;
+}
+
+#mobile-title {
+    display: none;
+}
